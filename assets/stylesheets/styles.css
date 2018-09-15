@@ -14,10 +14,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+.navbar img {
+	width: 450px;
+}
+
 .navbar-brand {
 	color: black;
 	font-family: 'Amatic SC', cursive;
-	font-size: 300%;
+	font-size: 5vw;
 	margin: 10px 30px 10px 30px;
 }
 
@@ -38,10 +42,15 @@ h1 {
 
 .img-left {
 	float: left;
-    width:50%;
+    width:400px;
     height: auto;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.img-border {
+	border: 2px black solid;
+	/*border-radius: 15px;*/
 }
 
 .card {
@@ -63,6 +72,13 @@ h1 {
 .btn {
 	background-color: #0f6d70;
 	border-radius: 25px;
+}
+
+.gallery-img {
+	padding: 5px;
+	border-radius: 25px;
+	border: 1px black solid;
+	margin-bottom: 20px;
 }
 
 footer {
